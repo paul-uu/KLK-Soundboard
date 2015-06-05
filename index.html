@@ -1,6 +1,11 @@
+
 <!doctype html>
-<html>
+<html lang='en'>
 <head>
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>Kill La Kill Soundboard</title>
 	<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
@@ -24,14 +29,19 @@
 	<audio id='mikisugi-8' src='http://paulwittschen.com/files/audio_files/klk/mikisugi-NB3.mp3' preload='auto'></audio>
 	<audio id='mikisugi-9' src='http://paulwittschen.com/files/audio_files/klk/mikisugi-skinnydiving.mp3' preload='auto'></audio>
 	<audio id='mikisugi-10' src='http://paulwittschen.com/files/audio_files/klk/mikisugi-wahtewahtewah.mp3' preload='auto'></audio>
-	<audio id='nonon-1' src='http://paulwittschen.com/files/audio_files/klk/nani-sore.mp3' preload='auto'></audio>
+	<audio id='nonon-1' src='http://paulwittschen.com/files/audio_files/klk/nonon-nanisore.mp3' preload='auto'></audio>
 	<audio id='ryuko-1' src='http://paulwittschen.com/files/audio_files/klk/ryuko-senketsu.mp3' preload='auto'></audio>
 	<audio id='klk-1' src='http://paulwittschen.com/files/audio_files/klk/dont_lose_your_way.mp3' preload='auto'></audio>
 
+
 	<header>
 		<img id='main_logo' src='http://paulwittschen.com/images/klk/logo_1.jpg' alt='Kill la Kill logo' />
-		<span id='header_text'>SOUNDBOARD</span>
+		<div id='header_text'>
+			<div id='main_text'>SOUNDBOARD</div>
+			<div id='unofficial'>(unofficial)</div>
+		</div>
 	</header>
+	
 	<div id='container'>
 		<h3>Aikuro Mikisugi</h3>
 		<div class='sound_button mikisugi_button' id='b_mikisugi_1' data-soundID='mikisugi-1'>DTR 1</div>
@@ -44,6 +54,16 @@
 		<div class='sound_button mikisugi_button' id='b_mikisugi_8' data-soundID='mikisugi-8'>Nudist Beach 3</div>
 		<div class='sound_button mikisugi_button' id='b_mikisugi_9' data-soundID='mikisugi-9'>Skinny Diving</div>
 		<div class='sound_button mikisugi_button' id='b_mikisugi_10' data-soundID='mikisugi-10'>wahtewahtewah</div>
+
+		<h3>Ry&#363;ko Matoi</h3>
+		<div class='sound_button ryuko_button' id='b_ryuko_1' data-soundID='ryuko-1'>Senketsu!!! T_T</div>
+
+		<h3>Nonon Jakuzure</h3>
+		<div class='sound_button nonon_button' id='b_nonon_1' data-soundID='nonon-1'>Nani Sore?!</div>
+
+		<h3>Miscellaneous</h3>
+		<div class='sound_button kik_button' id='b_klk_1' data-soundID='klk-1'>Don't Lose Your Way</div>
 	</div>
+
 </body>
-</html>	
+</html>
