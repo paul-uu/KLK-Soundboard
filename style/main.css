@@ -46,18 +46,30 @@ header {
 	padding: 20px;
 }
 
+.color_box {
+	width: 100px;
+	height: 20px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#box_jap {
+	background-color: #79bbff;
+	border: 1px solid #378de5;
+}
+#box_eng {
+	background-color: #15C897;
+	border: 1px solid #12B487;
+}
+
 .sound_button {
 	width: 300px;
 	height: 40px;
 	font-size: 18px;
-	-moz-box-shadow: 1px 4px 0px 0px #1564ad;
-	-webkit-box-shadow: 1px 4px 0px 0px #1564ad;
-	box-shadow: 1px 4px 0px 0px #1564ad;
-	background-color:#79bbff;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	border:1px solid #337bc4;
+	
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -65,10 +77,27 @@ header {
 	margin: 10px 10px 10px 0;
 	text-align: center;
 }
-.sound_button:hover {
-	background-color:#378de5;
-}
 .sound_button:active {
 	position:relative;
 	top:1px;
+}
+.japanese_dub {
+	-moz-box-shadow: 1px 4px 0px 0px #1564ad;
+	-webkit-box-shadow: 1px 4px 0px 0px #1564ad;
+	box-shadow: 1px 4px 0px 0px #1564ad;
+	background-color:#79bbff;
+	border:1px solid #337bc4;
+}
+.japanese_dub:hover {
+	background-color:#378de5;
+}
+.english_dub {
+	-moz-box-shadow: 1px 4px 0px 0px #0e8c69;
+	-webkit-box-shadow: 1px 4px 0px 0px #0e8c69;
+	box-shadow: 1px 4px 0px 0px #0e8c69;
+	background-color:#15C897;
+	border:1px solid #0e8c69;
+}
+.english_dub:hover {
+	background-color:#12B487;
 }
