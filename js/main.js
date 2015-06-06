@@ -1,15 +1,13 @@
 $(function() {
 	$('.sound_button').on('click', function() {
-		if ($(this).attr('id') === 'b_ryuko_1') {
+		var audio_id = $(this).attr('data-soundID');
+		if ($(this).attr('id') === 'b_ryuko_2') {
 			if (window.confirm("Do you have your tissues ready?")) {
-				var audio_id = $(this).attr('data-soundID');
-				play_sample(audio_id);		
+				play_sample(audio_id);
 			}
 		} else {
-			var audio_id = $(this).attr('data-soundID');
-			play_sample(audio_id);		
+			play_sample(audio_id);
 		}
-
 	});
 });
 function play_sample(audio_id) {
