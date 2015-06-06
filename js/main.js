@@ -1,13 +1,7 @@
 $(function() {
 	$('.sound_button').on('click', function() {
 		var audio_id = $(this).attr('data-soundID');
-		if ($(this).attr('id') === 'sad_senketsu') {
-			if (window.confirm("Do you have your tissues ready?")) {
-				play_sample(audio_id);
-			}
-		} else {
-			play_sample(audio_id);
-		}
+		play_sample(audio_id);
 	});
 });
 function play_sample(audio_id) {
