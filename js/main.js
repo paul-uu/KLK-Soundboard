@@ -1,7 +1,7 @@
 $(function() {
 	$('.sound_button').on('click', function() {
 		var audio_id = $(this).attr('data-soundID');
-		if ($(this).attr('id') === 'b_ryuko_2') {
+		if ($(this).attr('id') === 'sad_senketsu') {
 			if (window.confirm("Do you have your tissues ready?")) {
 				play_sample(audio_id);
 			}
