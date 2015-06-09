@@ -8,12 +8,12 @@ h3 {
 	margin-top: 25px;
 }
 #main_logo {
-	width: 220px;
+	width: 600px;
 }
 #header_text {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: -120px;
 	color: #222;
 	
 }
@@ -32,7 +32,6 @@ header {
 	width: 100%;
 	position: relative;
 	text-align: center;
-	padding: 10px;
 	background-color: #378de5;
 	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
